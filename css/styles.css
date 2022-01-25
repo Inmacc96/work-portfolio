@@ -1,6 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
-body{
-    background-color: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+header .nav {
+  min-height: 80px;
+  overflow: none;
+  background-color: #fff;
+}
+
+header .logo h2,
+header .logo p {
+  font-size: 16px;
+  display: block;
+}
+
+header .logo .icono {
+  color: #bfbfbf;
+}
+
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+
+header .logo p{
+    color: #777;
+}
+
+header .menu .c1 {
+  background-color: #3da5e2;
+}
+
+header .menu .c2 {
+  background-color: #005385;
+}
+
+header .menu .c3 {
+  background-color: #003855;
+}
+
+header .menu .c1:hover {
+  background-color: #1ba0ef;
+}
+
+header .menu .c2:hover {
+  background-color: #00426a;
+}
+
+header .menu .c3:hover {
+  background-color: #002d44;
 }
