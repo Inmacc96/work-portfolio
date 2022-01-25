@@ -5,6 +5,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* HEADER */
+
 header .nav {
   min-height: 80px;
   overflow: none;
@@ -52,4 +54,33 @@ header .menu .c2:hover {
 
 header .menu .c3:hover {
   background-color: #002d44;
+}
+
+
+ 
+/* MAIN */
+/* Portafolio */
+.portafolio{
+    border-top: 5px solid #3da5e2;
+    background-color: #fff;
+}
+
+.portafolio .titulo{
+   color: #3da5e2;
+   font-family: 'Open Sans', sans-serif; 
+   font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+    background-color: #3da5e2;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen a:hover img{
+    opacity: .3;
 }
