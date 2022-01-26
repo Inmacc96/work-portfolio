@@ -84,3 +84,53 @@ header .menu .c3:hover {
 .portafolio .galeria .contenedor-imagen a:hover img{
     opacity: .3;
 }
+
+
+/* MEDIAQUERIES */
+
+/* Para dispositivos más pequeños que un lg */
+@media screen and (max-width:991px){
+  .logo{
+    height: 76px;
+  }
+
+  header .menu{
+    min-height: 76px;
+  }
+
+  header .menu a{
+    width: 100%;
+  }
+
+  .portafolio .galeria .contenedor-imagen:nth-child(1){
+    order: 1;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(2){
+    order: 3;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(3){
+    order: 6;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(4){
+    order: 2;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(5){
+    order: 5;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(6){
+    order: 4;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(7){
+    order: 7;
+  }
+}
+
+/* Dispositivos md */
+@media screen and (max-width:768px){
+  
+}
+
+/* Dispositivos sm */
+@media screen and (max-width:575px){
+  
+}
