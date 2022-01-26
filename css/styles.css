@@ -85,6 +85,11 @@ header .menu .c3:hover {
     opacity: .3;
 }
 
+/* Ventana Modal */
+.modal-dialog{
+  max-width: 800px;
+}
+
 
 /* MEDIAQUERIES */
 
