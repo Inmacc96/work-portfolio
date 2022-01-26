@@ -134,6 +134,50 @@ header .menu .c3:hover {
   padding-left: 20px;
 }
 
+/* Contacto */
+
+.contacto{
+  border-top: 1px solid #cbcbcbcb;
+  border-bottom: 1px solid #cbcbcbcb;
+}
+
+.contacto .titulo{
+  color: #003855;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+  padding: 15px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contacto .formulario textarea{
+  min-height: 150px;
+  max-height: 250px;
+}
+
+.contacto .formulario .boton {
+  background-color: #3da5e2;
+  border: none;
+  padding: 7px 30px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  width: auto;
+  border-radius: 3px;
+}
+
+.contacto .formulario .boton:hover{
+  background-color: #1ba0ef;
+} 
+
 /* MEDIAQUERIES */
 
 /* Para dispositivos más pequeños que un lg */
@@ -184,5 +228,4 @@ header .menu .c3:hover {
 
 /* Dispositivos sm */
 @media screen and (max-width:575px){
-  
 }
