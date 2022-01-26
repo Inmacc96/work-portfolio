@@ -178,6 +178,43 @@ header .menu .c3:hover {
   background-color: #1ba0ef;
 } 
 
+
+/* FOOTER */
+
+.redes-sociales{
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.redes-sociales .icono{
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  background-color: #cbcbcb;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 3s ease;
+}
+
+.redes-sociales .icono svg{
+  width: 40px;
+  height: 40px;
+}
+
+.redes-sociales .twitter {
+  background-color: #1da1f2;
+}
+
+.redes-sociales .github {
+  background-color: #000;
+}
+
+.redes-sociales .linkedin {
+  background-color: #2867b2;
+}
+
+
 /* MEDIAQUERIES */
 
 /* Para dispositivos más pequeños que un lg */
@@ -228,4 +265,13 @@ header .menu .c3:hover {
 
 /* Dispositivos sm */
 @media screen and (max-width:575px){
+  .redes-sociales .icono{
+    width: 50px;
+    height: 50px;
+  }
+
+  .redes-sociales .icono svg{
+    width: 25px;
+    height: 25px;
+  }
 }
