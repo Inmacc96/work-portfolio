@@ -1,0 +1,75 @@
+/* MEDIAQUERIES */
+
+/* Para dispositivos más pequeños que un lg */
+@media screen and (max-width: 991px) {
+  header .logo {
+    height: 76px;
+  }
+
+  header .menu {
+    min-height: 76px;
+  }
+
+  header .menu a {
+    width: 100%;
+  }
+
+  .portafolio .galeria .contenedor-imagen:nth-child(1) {
+    order: 1;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(2) {
+    order: 3;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(3) {
+    order: 6;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(4) {
+    order: 2;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(5) {
+    order: 5;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(6) {
+    order: 4;
+  }
+  .portafolio .galeria .contenedor-imagen:nth-child(7) {
+    order: 7;
+  }
+
+  .acerca-de .foto img {
+    width: 50%;
+  }
+}
+
+/* Dispositivos sm */
+@media screen and (max-width: 767px) {
+    .container {
+        margin-top: 0;
+      }
+    
+    header .logo h2,
+    header .logo p {
+        font-size: 13px;
+    }
+
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu a{
+        height: 65px;
+    }
+}
+
+/* Dispositivos sm */
+@media screen and (max-width: 575px) {
+  .redes-sociales .icono {
+    width: 50px;
+    height: 50px;
+  }
+
+  .redes-sociales .icono svg {
+    width: 25px;
+    height: 25px;
+  }
+}
